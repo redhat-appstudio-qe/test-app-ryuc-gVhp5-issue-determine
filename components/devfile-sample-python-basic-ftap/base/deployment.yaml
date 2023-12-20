@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-ftap
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-loqo-tenant/test-app-ryuc/devfile-sample-python-basic-ftap@sha256:e8dfeb96a449e5ae8ce041ceb474d006d382f1d792a1263631fae44a8376a542
         name: my-python
         ports:
         - containerPort: 8081
